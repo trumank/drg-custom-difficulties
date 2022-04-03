@@ -1,0 +1,211 @@
+{
+  "Name": "Starship Troopers Pro",
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 60,
+  "StartingNitra": 20,
+  "ExtraLargeEnemyDamageResistance": [
+    0.7,
+    0.75,
+    1,
+    1.6
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.6,
+    0.7,
+    0.9,
+    1.6
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.1,
+    1.1,
+    1.3,
+    1.5
+  ],
+  "EnemyDamageResistance": [
+    1,
+    1,
+    1.2,
+    1.3
+  ],
+  "EnemyDamageModifier": [
+    2,
+    2.15,
+    2.3,
+    2.5
+  ],
+  "EnemyCountModifier": [
+    2.25,
+    2.25,
+    3.45,
+    4.5
+  ],
+  "EncounterDifficulty": [
+    {
+      "range": {
+        "max": 800,
+        "min": 700
+      },
+      "weight": 7
+    },
+    {
+      "range": {
+        "max": 1400,
+        "min": 1200
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "range": {
+        "max": 800,
+        "min": 700
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 400,
+        "min": 250
+      },
+      "weight": 6
+    },
+    {
+      "range": {
+        "max": 450,
+        "min": 350
+      },
+      "weight": 3
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "range": {
+        "max": 165,
+        "min": 125
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 300,
+        "min": 250
+      },
+      "weight": 3
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "range": {
+        "max": 30,
+        "min": 20
+      },
+      "weight": 9.5
+    },
+    {
+      "range": {
+        "max": 70,
+        "min": 70
+      },
+      "weight": 0.5
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "range": {
+        "max": 120,
+        "min": 50
+      },
+      "weight": 1
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "range": {
+        "max": 4,
+        "min": 3
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 6,
+        "min": 4
+      },
+      "weight": 8
+    },
+    {
+      "range": {
+        "max": 7,
+        "min": 7
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "range": {
+        "max": 5,
+        "min": 3
+      },
+      "weight": 1
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 0.7,
+        "min": 0.4
+      },
+      "weight": 9
+    },
+    {
+      "range": {
+        "max": 0.9,
+        "min": 0.6
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 1,
+        "min": 1
+      },
+      "weight": 1
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "range": {
+        "max": 0.3,
+        "min": 0.2
+      },
+      "weight": 1
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "max": 7,
+    "min": 7
+  },
+  "EnvironmentalDamageModifier": 1.4,
+  "PointExtractionScalar": 1.4,
+  "FriendlyFireModifier": 0.9,
+  "SpeedModifier": 1.1,
+  "AttackCooldownModifier": 1.25,
+  "ProjectileSpeedModifier": 1.3,
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Hazard 5 - Praetorian Edition",
+  "EnemyDescriptors": {
+    "ED_My_Praetorian": {
+      "Base": "ED_Spider_Tank",
+      "CanBeUsedForConstantPressure": true,
+      "DifficultyRating": 10,
+      "IdealSpawnSize": 6,
+      "MaxSpawnCount": 9999,
+      "Rarity": 1
+    }
+  },
+  "CommonEnemies": {
+    "add": [
+      "ED_My_Praetorian"
+    ],
+    "clear": true,
+    "remove": []
+  }
+}

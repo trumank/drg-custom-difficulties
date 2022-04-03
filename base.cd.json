@@ -1,0 +1,273 @@
+{
+  "Name": "Hazard 5",
+  "MaxActiveCritters": 40,
+  "MaxActiveSwarmers": 60,
+  "MaxActiveEnemies": 60,
+  "ResupplyCost": 80,
+  "StartingNitra": 0,
+  "ExtraLargeEnemyDamageResistance": [
+    0.75,
+    0.8,
+    1.2,
+    1.7
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.7,
+    0.7,
+    1,
+    1.3
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    0.6,
+    0.7,
+    1,
+    1.6
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.3,
+    1.3,
+    1.5,
+    1.65
+  ],
+  "EnemyDamageResistance": [
+    1.2,
+    1.2,
+    1.4,
+    1.5
+  ],
+  "SmallEnemyDamageResistance": [
+    1.2,
+    1.2,
+    1.2,
+    1.2
+  ],
+  "EnemyDamageModifier": [
+    2.8,
+    3,
+    3.2,
+    3.4
+  ],
+  "EnemyCountModifier": [
+    0.85,
+    0.85,
+    1.25,
+    1.5
+  ],
+  "EncounterDifficulty": [
+    {
+      "range": {
+        "max": 200,
+        "min": 100
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 400,
+        "min": 300
+      },
+      "weight": 6
+    },
+    {
+      "range": {
+        "max": 500,
+        "min": 400
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 200,
+        "min": 150
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 350,
+        "min": 250
+      },
+      "weight": 1
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "range": {
+        "max": 180,
+        "min": 160
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 280,
+        "min": 230
+      },
+      "weight": 7.5
+    },
+    {
+      "range": {
+        "max": 299,
+        "min": 299
+      },
+      "weight": 0.5
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "range": {
+        "max": 150,
+        "min": 120
+      },
+      "weight": 4
+    },
+    {
+      "range": {
+        "max": 250,
+        "min": 180
+      },
+      "weight": 2
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "range": {
+        "max": 450,
+        "min": 350
+      },
+      "weight": 1
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "range": {
+        "max": 2,
+        "min": 1
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 4,
+        "min": 3
+      },
+      "weight": 8
+    },
+    {
+      "range": {
+        "max": 6,
+        "min": 5
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "range": {
+        "max": 4,
+        "min": 2
+      },
+      "weight": 1
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 3
+    },
+    {
+      "range": {
+        "max": 0.3,
+        "min": 0.15
+      },
+      "weight": 9
+    },
+    {
+      "range": {
+        "max": 0.6,
+        "min": 0.4
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 1,
+        "min": 1
+      },
+      "weight": 0.5
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "range": {
+        "max": 0.175,
+        "min": 0.175
+      },
+      "weight": 1
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "max": 3,
+    "min": 3
+  },
+  "MinPoolSize": 8,
+  "MaxActiveElites": 0,
+  "EnvironmentalDamageModifier": 1.1,
+  "PointExtractionScalar": 1.1,
+  "FriendlyFireModifier": 0.7,
+  "WaveStartDelayScale": 0,
+  "SpeedModifier": 1.15,
+  "AttackCooldownModifier": 1.5,
+  "ProjectileSpeedModifier": 1.7,
+  "HealthRegenerationMax": 0.1,
+  "ReviveHealthRatio": 0.1,
+  "EliteCooldown": 0,
+  "EnemyDescriptors": {},
+  "EnemyPool": {
+    "add": [],
+    "clear": false,
+    "remove": []
+  },
+  "CommonEnemies": {
+    "add": [],
+    "clear": false,
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "add": [],
+    "clear": false,
+    "remove": []
+  },
+  "DisruptiveEnemies": {
+    "add": [],
+    "clear": false,
+    "remove": []
+  },
+  "StationaryEnemies": {
+    "add": [],
+    "clear": false,
+    "remove": []
+  },
+  "SeasonalEvents": [
+    "SE_ProspectorDrone",
+    "SE_ProspectorDataDeposit"
+  ],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.5,
+    "BigHitDamageReductionThreshold": 6,
+    "NeutralDamageModifier": 0.1
+  }
+}

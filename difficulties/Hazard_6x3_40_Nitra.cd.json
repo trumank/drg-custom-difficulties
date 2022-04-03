@@ -1,0 +1,231 @@
+{
+  "Name": "Hazard 6x3 40 Nitra",
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 40,
+  "ExtraLargeEnemyDamageResistance": [
+    1,
+    1.3,
+    1.7,
+    2.1
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    1,
+    1.3,
+    1.5,
+    1.7
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    1,
+    1.3,
+    1.7,
+    2.1
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.5,
+    1.55,
+    1.75,
+    1.9
+  ],
+  "EnemyDamageResistance": [
+    1.4,
+    1.5,
+    1.6,
+    1.75
+  ],
+  "EnemyDamageModifier": [
+    3.3,
+    3.65,
+    3.9,
+    4.1
+  ],
+  "EnemyCountModifier": [
+    2.85,
+    3.15,
+    4.05,
+    4.95
+  ],
+  "EncounterDifficulty": [
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 750,
+        "min": 450
+      },
+      "weight": 6
+    },
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 0
+    },
+    {
+      "range": {
+        "max": 450,
+        "min": 350
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 350,
+        "min": 250
+      },
+      "weight": 0
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "range": {
+        "max": 180,
+        "min": 160
+      },
+      "weight": 0
+    },
+    {
+      "range": {
+        "max": 165,
+        "min": 125
+      },
+      "weight": 7.5
+    },
+    {
+      "range": {
+        "max": 299,
+        "min": 299
+      },
+      "weight": 0
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "range": {
+        "max": 210,
+        "min": 170
+      },
+      "weight": 4
+    },
+    {
+      "range": {
+        "max": 190,
+        "min": 180
+      },
+      "weight": 2
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "range": {
+        "max": 2,
+        "min": 4
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 4,
+        "min": 6
+      },
+      "weight": 8
+    },
+    {
+      "range": {
+        "max": 6,
+        "min": 5
+      },
+      "weight": 0
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "range": {
+        "max": 4,
+        "min": 4
+      },
+      "weight": 1
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 0.7,
+        "min": 0.6
+      },
+      "weight": 0
+    },
+    {
+      "range": {
+        "max": 0.8,
+        "min": 0.5
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 1,
+        "min": 1
+      },
+      "weight": 0
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "range": {
+        "max": 0.2,
+        "min": 0.2
+      },
+      "weight": 1
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "max": 6,
+    "min": 4
+  },
+  "MinPoolSize": 12,
+  "EnvironmentalDamageModifier": 1.4,
+  "PointExtractionScalar": 1.4,
+  "FriendlyFireModifier": 0.9,
+  "SpeedModifier": 1.25,
+  "AttackCooldownModifier": 1.75,
+  "ProjectileSpeedModifier": 1.9,
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}

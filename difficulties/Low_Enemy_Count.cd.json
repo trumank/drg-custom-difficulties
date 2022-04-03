@@ -1,0 +1,225 @@
+{
+  "Name": "Low Enemy Count",
+  "ExtraLargeEnemyDamageResistance": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "EnemyDamageResistance": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "SmallEnemyDamageResistance": [
+    2.4,
+    2.4,
+    2.4,
+    2.4
+  ],
+  "EnemyDamageModifier": [
+    5.6,
+    6,
+    6.4,
+    6.8
+  ],
+  "EnemyCountModifier": [
+    0.63,
+    0.63,
+    0.83,
+    1.1
+  ],
+  "EncounterDifficulty": [
+    {
+      "range": {
+        "max": 200,
+        "min": 100
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 500,
+        "min": 300
+      },
+      "weight": 6
+    },
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "range": {
+        "max": 150,
+        "min": 75
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 250,
+        "min": 200
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 450,
+        "min": 250
+      },
+      "weight": 2
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "range": {
+        "max": 165,
+        "min": 130
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 240,
+        "min": 190
+      },
+      "weight": 6
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "range": {
+        "max": 450,
+        "min": 350
+      },
+      "weight": 8
+    },
+    {
+      "range": {
+        "max": 650,
+        "min": 500
+      },
+      "weight": 1.5
+    },
+    {
+      "range": {
+        "max": 850,
+        "min": 700
+      },
+      "weight": 0.5
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "range": {
+        "max": 2,
+        "min": 1
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 4,
+        "min": 3
+      },
+      "weight": 7
+    },
+    {
+      "range": {
+        "max": 6,
+        "min": 5
+      },
+      "weight": 2
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "range": {
+        "max": 4,
+        "min": 4
+      },
+      "weight": 1
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 0.3,
+        "min": 0.15
+      },
+      "weight": 9
+    },
+    {
+      "range": {
+        "max": 0.6,
+        "min": 0.4
+      },
+      "weight": 3
+    },
+    {
+      "range": {
+        "max": 1,
+        "min": 1
+      },
+      "weight": 0.5
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "max": 5,
+    "min": 3
+  },
+  "MinPoolSize": 10,
+  "SpeedModifier": 5.15,
+  "AttackCooldownModifier": 4.5,
+  "ProjectileSpeedModifier": 3.7,
+  "CommonEnemies": {
+    "add": [
+      "ED_Spider_Shooter"
+    ],
+    "clear": false,
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "add": [
+      "ED_Spider_Spitter",
+      "ED_Spider_Swarmer",
+      "ED_Mactera_Shooter_Normal",
+      "ED_Spider_Exploder",
+      "ED_Mactera_TripleShooter"
+    ],
+    "clear": true,
+    "remove": []
+  },
+  "SeasonalEvents": []
+}

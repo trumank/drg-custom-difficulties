@@ -1,0 +1,513 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "description": "A custom difficulty.",
+    "$defs": {
+        "enemyResistance": {
+            "type": "number",
+            "title": "EnemyResistance",
+            "description": "The amount of damage resistance for an enemey or group of enemies.",
+            "default": 1
+        },
+        "enemyDamage": {
+            "type": "number",
+            "title": "EnemyDamage",
+            "description": "The amount of damage done to players by enemies.",
+            "default": 1
+        },
+        "enemyCount": {
+            "type": "number",
+            "title": "EnemyCount",
+            "description": "The number of enemies that spawn from the majority of wave types.",
+            "default": 1
+        },
+        "intRange": {
+            "type": "object",
+            "description": "A minimum and maximum range of integers.",
+            "additionalProperties": false,
+            "required": ["min", "max"],
+            "properties": {
+                "min": {
+                    "type": "integer",
+                    "description": "The minimum value of the range."
+                },
+                "max": {
+                    "type": "integer",
+                    "description": "The maximum value of the range."
+                }
+            }
+        },
+        "weightedIntRange": {
+            "type": "object",
+            "description": "A range with a weight value.",
+            "additionalProperties": false,
+            "required": ["weight", "range"],
+            "properties": {
+                "weight": {
+                    "type": "number",
+                    "description": "The weight of the bin"
+                },
+                "range": {"$ref": "#/$defs/intRange"}
+            }
+        },
+        "floatRangeClamped": {
+            "type": "object",
+            "description": "A minimum and maximum range of floats.",
+            "additionalProperties": false,
+            "required": ["min", "max"],
+            "properties": {
+                "min": {
+                    "type": "number",
+                    "description": "The minimum value of the range.",
+                    "min": 0,
+                    "max": 1
+                },
+                "max": {
+                    "type": "number",
+                    "description": "The maximum value of the range.",
+                    "min": 0,
+                    "max": 1
+                }
+            }
+        },
+        "weightedFloatRangeClamped": {
+            "type": "object",
+            "description": "A range with a weight value.",
+            "additionalProperties": false,
+            "required": ["weight", "range"],
+            "properties": {
+                "weight": {
+                    "type": "number",
+                    "description": "The weight of the bin"
+                },
+                "range": {"$ref": "#/$defs/floatRangeClamped"}
+            }
+        },
+        "enemyDescriptor": {
+            "type": "object",
+            "description": "An enemy descriptor definition",
+            "additionalProperties": false,
+            "properties": {
+                "Base": {
+                    "type": "string",
+                    "description": "The EnemyDescriptor to copy values from. Required if defining a new EnemyDescriptor."
+                },
+                "SpawnSpread": {
+                    "type": "number",
+                    "description": "The maximum distance enemies can spawn from the center of spawn point in centimeters."
+                },
+                "IdealSpawnSize": {
+                    "type": "integer"
+                },
+                "CanBeUsedForConstantPressure": {
+                    "type": "boolean",
+                    "description": "Whether this descriptor can spawn in constant pressure waves (preset in point extraction and during the repair phase on refinery)."
+                },
+                "CanBeUsedInEncounters": {
+                    "type": "boolean",
+                    "description": "Whether this descriptor can spawn in encounters."
+                },
+                "DifficultyRating": {
+                    "type": "number",
+                    "description": "The difficulty cost to spawn each individual enemy. The exact interaction with SpawnAmountModifier is currently unknown."
+                },
+                "MinSpawnCount": {
+                    "type": "integer"
+                },
+                "MaxSpawnCount": {
+                    "type": "integer"
+                },
+                "Rarity": {
+                    "type": "number"
+                },
+                "SpawnAmountModifier": {
+                    "type": "number"
+                },
+                "PawnStats": {"$ref": "#/$defs/pawnStats"}
+            }
+        },
+        "pawnStats": {
+            "type": "object",
+            "description": "A map of PawnStats and corresponding values.",
+            "patternProperties": {
+                "^.*$": {
+                    "oneOf": [{
+                        "type": "number"
+                    }]
+                }
+            }
+        },
+        "enemyPool": {
+            "type": "object",
+            "description": "An enemy pool",
+            "default": {"clear": false, "add": [], "remove": []},
+            "additionalProperties": false,
+            "required": ["clear", "add", "remove"],
+            "properties": {
+                "clear": {
+                    "type": "boolean",
+                    "description": "Clear the pool before adding enemies"
+                },
+                "add": {
+                    "type": "array",
+                    "description": "An array of EnemyDescriptor names to add to the pool.",
+                    "items": "string"
+                },
+                "remove": {
+                    "type": "array",
+                    "description": "An array of EnemyDescriptor names to remove from the pool.",
+                    "items": "string"
+                }
+            }
+        }
+    },
+    "additionalProperties": false,
+    "properties": {
+        "Name": {
+            "type": "string",
+            "description": "The difficulty name.",
+            "default": "",
+            "examples": [
+                "Hazard 5"
+            ]
+        },
+        "MaxActiveCritters": {
+            "type": "integer",
+            "description": "The maximum number of critters (maggots, lootbugs, silica harvesters, etc.) allowed to exist at once.",
+            "default": 40,
+            "examples": [
+                40
+            ]
+        },
+        "MaxActiveSwarmers": {
+            "type": "integer",
+            "description": "The maximum number of swarmers allowed to exist at once.",
+            "default": 60,
+            "examples": [
+                180
+            ]
+        },
+        "MaxActiveEnemies": {
+            "type": "integer",
+            "description": "The maximum number of swarmers allowed to exist at once.",
+            "default": 60,
+            "examples": [
+                180
+            ]
+        },
+        "ResupplyCost": {
+            "type": "integer",
+            "description": "The amount of nitra required to call a resupply pod. This can be lowered to relieve ammo pressure on more demanding difficulties.",
+            "default": 80,
+            "examples": [
+                40
+            ]
+        },
+        "StartingNitra": {
+            "type": "integer",
+            "description": "The amount of nitra initially in the team depository. This can be used to counter bad RNG at the start of missions that would otherwise making getting the first resupply quite difficult.",
+            "default": 0,
+            "examples": [40]
+        },
+        "ExtraLargeEnemyDamageResistance": {
+            "type": "array",
+            "description": "The damage resistance for ExtraLarge enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [0.75, 0.8, 1.2, 1.7],
+            "items": {"$ref": "#/$defs/enemyResistance"}
+        },
+        "ExtraLargeEnemyDamageResistanceB": {
+            "type": "array",
+            "description": "The damage resistance for ExtraLargeB enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [0.7, 0.7, 1, 1.3],
+            "items": {"$ref": "#/$defs/enemyResistance"}
+        },
+        "ExtraLargeEnemyDamageResistanceC": {
+            "type": "array",
+            "description": "The damage resistance for ExtraLargeC enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [0.6, 0.7, 1, 1.6],
+            "items": {"$ref": "#/$defs/enemyResistance"}
+        },
+        "ExtraLargeEnemyDamageResistanceD": {
+            "type": "array",
+            "description": "The damage resistance for ExtraLargeD enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [1.3, 1.3, 1.5, 1.65],
+            "items": {"$ref": "#/$defs/enemyResistance"}
+        },
+        "EnemyDamageResistance": {
+            "type": "array",
+            "description": "The damage resistance for enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [0.75, 0.8, 1.2, 1.7],
+            "items": {"$ref": "#/$defs/enemyResistance"}
+        },
+        "SmallEnemyDamageResistance": {
+            "type": "array",
+            "description": "The damage resistance for enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [0.75, 0.8, 1.2, 1.7],
+            "items": {"$ref": "#/$defs/enemyResistance"}
+        },
+        "EnemyDamageModifier": {
+            "type": "array",
+            "description": "The amount of damage done to player by enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [2.8, 3, 3.2, 3.4],
+            "items": {"$ref": "#/$defs/enemyDamage"}
+        },
+        "EnemyCountModifier": {
+            "type": "array",
+            "description": "The amount of damage done to player by enemies for the corresponding player count.",
+            "minItems": 4,
+            "default": [0.85, 0.85, 1.25, 1.5],
+            "items": {"$ref": "#/$defs/enemyCount"}
+        },
+        "EncounterDifficulty": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate the difficulty of encounter enemies when spawned (enemies spawned inside rooms when approached by the player the first time).",
+            "minItems": 1,
+            "default": [],
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "StationaryDifficulty": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate the difficulty of stationary enemies (spitball infectors, brood nexuses, leeches, and breeders).",
+            "minItems": 1,
+            "default": [],
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "EnemyWaveInterval": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate time (in seconds) between timed announced waves (present in mining, point extraction, and refinery mission types).",
+            "minItems": 1,
+            "default": [],
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "EnemyNormalWaveInterval": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate time (in seconds) between timed unannounced waves (present in mining, refinery, egg, elimination, salvage, escort?, and industrial sabotage mission types).",
+            "minItems": 1,
+            "default": [],
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "EnemyNormalWaveDifficulty": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate difficulty of normal waves.",
+            "minItems": 1,
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "EnemyDiversity": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate diversity (number of unique enemy types) spawned in a wave.",
+            "minItems": 1,
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "StationaryEnemyDiversity": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate diversity (number of unique enemy types) spawned in a room",
+            "minItems": 1,
+            "items": {"$ref": "#/$defs/weightedIntRange"}
+        },
+        "VeteranNormal": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate percentage of grunts and mactera to be promoted to veteran variants.",
+            "minItems": 1,
+            "items": {"$ref": "#/$defs/weightedFloatRangeClamped"}
+        },
+        "VeteranLarge": {
+            "type": "array",
+            "description": "An array of weighted bins used to calculate percentage of praetorians to be promoted to oppressors.",
+            "items": {"$ref": "#/$defs/weightedFloatRangeClamped"}
+        },
+        "DisruptiveEnemyPoolCount": {
+            "type": "object",
+            "description": "The number of disruptive enemies to fill the enemy pool with at the start of the mission. Has no effect if changed mid mission.",
+            "oneOf": [{"$ref": "#/$defs/intRange"}]
+        },
+        "MinPoolSize": {
+            "type": "integer",
+            "description": "The maximum number of elite enemies allowed to exist at once.",
+            "min": 0
+        },
+        "MaxActiveElites": {
+            "type": "integer",
+            "description": "The size of the enemy pool. Enemies will be selected and added to the enemy pool until it is full in the following order: common enemies, disruptive enemies, then special enemies.",
+            "min": 0
+        },
+        "EnvironmentalDamageModifier": {
+            "type": "number",
+            "description": "The amount of damage environmental sources of damage do to players. Does not seem to have any effect."
+        },
+        "PointExtractionScalar": {
+            "type": "number",
+            "description": "How quickly the constant pressure waves on point extraction scale as time goes on. Does not seem to do anything when increased higher than 1."
+        },
+        "FriendlyFireModifier": {
+            "type": "number",
+            "description": "The amount of damage done to other players."
+        },
+        "WaveStartDelayScale": {
+            "type": "number",
+            "description": "How long before the first wave starts in units of wave interval."
+        },
+        "SpeedModifier": {
+            "type": "number",
+            "description": "The movement speed of most enemies."
+        },
+        "AttackCooldownModifier": {
+            "type": "number",
+            "description": "The cooldown between enemy attacks."
+        },
+        "ProjectileSpeedModifier": {
+            "type": "number",
+            "description": "The speed of non-arcing enemy projectiles."
+        },
+        "HealthRegenerationMax": {
+            "type": "number",
+            "description": "The percentage of full health to regenerate to over time.",
+            "max": 1,
+            "min": 0
+        },
+        "ReviveHealthRatio": {
+            "type": "number",
+            "description": "The percentage of health to get back upon being revived by another player (does not apply to a revive from bosco).",
+            "max": 1,
+            "min": 0
+        },
+        "EliteCooldown": {
+            "type": "integer",
+            "description": "The cooldown in seconds between spawning elite enemies."
+        },
+        "EnemyDescriptors": {
+            "type": "object",
+            "description": "A map of EnemyDescriptor names and definitions. It will override fields on existing EnemyDescriptors or create a new EnemyDescriptor if one does not already exist. This can be used to define new EnemyDescriptors that can be added to pools or modify (or completely replace) existing EnemyDescriptors.",
+            "patternProperties": {
+                "^.*$": {
+                    "oneOf": [{"$ref": "#/$defs/enemyDescriptor"}]
+                }
+            },
+            "examples": [
+                {
+                    "ED_Grabber": {
+                        "CanBeUsedForConstantPressure": true
+                    }
+                },
+                {
+                    "ED_Spider_Spawn": {
+                        "Base": "ED_JellyBreeder"
+                    },
+                    "ED_Jelly_Spawn": {
+                        "Base": "ED_SpiderSpawner"
+                    }
+                },
+                {
+                    "ED_Fast_Slasher": {
+                        "Base": "ED_Spider_Grunt_Attacker",
+                        "IdealSpawnSize": 4,
+                        "CanBeUsedForConstantPressure": true,
+                        "CanBeUsedInEncounters": true,
+                        "DifficultyRating": 20,
+                        "MinSpawnCount": 4,
+                        "MaxSpawnCount": 10,
+                        "Rarity": 10,
+                        "PawnStats": {
+                            "PST_MovementSpeed": 2,
+                            "PST_DamageResistance": 2
+                        }
+                    }
+                }
+            ]
+        },
+        "EnemyPool": {
+            "type": "object",
+            "description": "The enemy pool which is what the game pulls EnemyDescriptors from when attempting to spawn enemies. This pool is built by pulling enemies from the CommonEnemies, DisruptiveEnemies, and SpecialEnemies pools upon mission start. It is recommended to not modify this pool directly and instead modify the pools this pulls from.",
+            "default": {"clear": false, "add": [], "remove": []},
+            "oneOf": [{"$ref": "#/$defs/enemyPool"}]
+        },
+        "CommonEnemies": {
+            "type": "object",
+            "description": "The common enemy pool which is added to the enemy pool before anything else.",
+            "default": {"clear": false, "add": [], "remove": []},
+            "oneOf": [{"$ref": "#/$defs/enemyPool"}]
+        },
+        "DisruptiveEnemies": {
+            "type": "object",
+            "description": "The disruptive enemy pool which is added to the enemy pool after common enemies. The quantity depends on what value is rolled from DisruptiveEnemyPoolCount.",
+            "default": {"clear": false, "add": [], "remove": []},
+            "oneOf": [{"$ref": "#/$defs/enemyPool"}]
+        },
+        "SpecialEnemies": {
+            "type": "object",
+            "description": "The special enemy pool which is added to the enemy pool after disruptive enemies.",
+            "default": {"clear": false, "add": [], "remove": []},
+            "oneOf": [{"$ref": "#/$defs/enemyPool"}]
+        },
+        "StationaryEnemies": {
+            "type": "object",
+            "description": "The stationary enemy pool.",
+            "default": {"clear": false, "add": [], "remove": []},
+            "oneOf": [{"$ref": "#/$defs/enemyPool"}]
+        },
+        "SeasonalEvents": {
+            "type": "array",
+            "description": "An array of season events that can spawn. Can be used to disable events such as the Prospector which can be quite disruptive if encountered on high enemy count missions.",
+            "default": [
+                "SE_ProspectorDrone",
+                "SE_ProspectorDataDeposit"
+            ],
+            "items": {
+                "type": "string",
+                "enum": [
+                    "SE_ProspectorDrone",
+                    "SE_ProspectorDataDeposit"
+                ]
+            }
+        },
+        "EscortMule": {
+            "type": "object",
+            "description": "The escort mule damage resistance properties.",
+            "default": {
+                "FriendlyFireModifier": 0.1,
+                "NeutralDamageModifier": 0.1,
+                "BigHitDamageModifier": 0.5,
+                "BigHitDamageReductionThreshold": 6
+            },
+            "examples": [
+                {
+                    "FriendlyFireModifier": 0.1,
+                    "NeutralDamageModifier": 0.1,
+                    "BigHitDamageModifier": 0.75,
+                    "BigHitDamageReductionThreshold": 0
+                }
+            ],
+            "additionalProperties": false,
+            "required": [
+                "FriendlyFireModifier",
+                "NeutralDamageModifier",
+                "BigHitDamageModifier",
+                "BigHitDamageReductionThreshold"
+            ],
+            "properties": {
+                "FriendlyFireModifier": {
+                    "type": "number",
+                    "description": "The damage taken from players."
+                },
+                "NeutralDamageModifier": {
+                    "type": "number",
+                    "description": "The damage taken from neutral damage sources."
+                },
+                "BigHitDamageModifier": {
+                    "type": "number",
+                    "description": "The damage taken from big hits."
+                },
+                "BigHitDamageReductionThreshold": {
+                    "type": "number",
+                    "description": "The damage threshold for a hit to be considered a \"big hit\" and get affected by the BigHitDamageModifier."
+                }
+            }
+        }
+    }
+}

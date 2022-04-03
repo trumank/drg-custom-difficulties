@@ -1,0 +1,265 @@
+{
+  "Name": "Hazard 6x2 Plus",
+  "MaxActiveSwarmers": 180,
+  "MaxActiveEnemies": 180,
+  "ResupplyCost": 40,
+  "ExtraLargeEnemyDamageResistance": [
+    1,
+    1.3,
+    1.7,
+    2.1
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    1,
+    1.3,
+    1.5,
+    1.7
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    1,
+    1.3,
+    1.7,
+    2.1
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.5,
+    1.55,
+    1.75,
+    1.9
+  ],
+  "EnemyDamageResistance": [
+    1.4,
+    1.5,
+    1.6,
+    1.75
+  ],
+  "EnemyDamageModifier": [
+    3.3,
+    3.65,
+    3.9,
+    4.1
+  ],
+  "EnemyCountModifier": [
+    1.9,
+    2.1,
+    2.7,
+    3.3
+  ],
+  "EncounterDifficulty": [
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 750,
+        "min": 450
+      },
+      "weight": 6
+    },
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    }
+  ],
+  "StationaryDifficulty": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 0
+    },
+    {
+      "range": {
+        "max": 450,
+        "min": 350
+      },
+      "weight": 1
+    },
+    {
+      "range": {
+        "max": 350,
+        "min": 250
+      },
+      "weight": 0
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "range": {
+        "max": 180,
+        "min": 160
+      },
+      "weight": 0
+    },
+    {
+      "range": {
+        "max": 165,
+        "min": 125
+      },
+      "weight": 7.5
+    },
+    {
+      "range": {
+        "max": 299,
+        "min": 299
+      },
+      "weight": 0
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "range": {
+        "max": 210,
+        "min": 170
+      },
+      "weight": 4
+    },
+    {
+      "range": {
+        "max": 190,
+        "min": 180
+      },
+      "weight": 2
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "range": {
+        "max": 650,
+        "min": 550
+      },
+      "weight": 1
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "range": {
+        "max": 2,
+        "min": 4
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 4,
+        "min": 6
+      },
+      "weight": 8
+    },
+    {
+      "range": {
+        "max": 6,
+        "min": 5
+      },
+      "weight": 0
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "range": {
+        "max": 4,
+        "min": 4
+      },
+      "weight": 1
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "range": {
+        "max": 0,
+        "min": 0
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 0.7,
+        "min": 0.6
+      },
+      "weight": 0
+    },
+    {
+      "range": {
+        "max": 0.8,
+        "min": 0.5
+      },
+      "weight": 2
+    },
+    {
+      "range": {
+        "max": 1,
+        "min": 1
+      },
+      "weight": 0
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "range": {
+        "max": 0.2,
+        "min": 0.2
+      },
+      "weight": 1
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "max": 6,
+    "min": 4
+  },
+  "MinPoolSize": 12,
+  "EnvironmentalDamageModifier": 1.4,
+  "PointExtractionScalar": 1.4,
+  "FriendlyFireModifier": 0.9,
+  "SpeedModifier": 1.25,
+  "AttackCooldownModifier": 1.75,
+  "ProjectileSpeedModifier": 1.9,
+  "EnemyDescriptors": {
+    "ED_Spider_Grunt_Attacker2": {
+      "Base": "ED_Spider_Grunt_Attacker",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 20,
+      "IdealSpawnSize": 4,
+      "MaxSpawnCount": 10,
+      "MinSpawnCount": 4,
+      "PawnStats": {
+        "PST_DamageResistance": 2,
+        "PST_MovementSpeed": 2
+      },
+      "Rarity": 10
+    },
+    "ED_Spider_Tank_HeavySpawn_Common": {
+      "Base": "ED_Spider_Tank_HeavySpawn",
+      "CanBeUsedForConstantPressure": true,
+      "CanBeUsedInEncounters": true,
+      "DifficultyRating": 20,
+      "IdealSpawnSize": 2,
+      "MaxSpawnCount": 2,
+      "MinSpawnCount": 1,
+      "Rarity": 10
+    }
+  },
+  "CommonEnemies": {
+    "add": [
+      "ED_Spider_Grunt_Attacker2",
+      "ED_Spider_Tank_HeavySpawn_Common"
+    ],
+    "clear": false,
+    "remove": []
+  },
+  "SeasonalEvents": [],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
+}
