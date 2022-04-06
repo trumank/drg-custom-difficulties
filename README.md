@@ -49,3 +49,6 @@ Huge amounts of very fast enemies with very low hp, resups cost 40. Had no idea 
 
 ## [Low Enemy Count](difficulties/Low_Enemy_Count.cd.json) by The Brain
 Not many bugs spawn. Difficult, but beatable.
+
+## [Oops All Bulks](difficulties/Oops_All_Bulks.cd.json)
+This is a Custom Difficulty version of Milligin's "Oops all bulks" event he often plays on stream. It's usually played on a refinery mission, but other mission types could be interesting as well.

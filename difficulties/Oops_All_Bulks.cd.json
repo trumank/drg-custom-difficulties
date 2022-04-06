@@ -1,0 +1,46 @@
+{
+  "Name": "Oops all bulks",
+  "ResupplyCost": 20,
+  "EnemyWaveInterval": [
+    {
+      "range": {
+        "max": 10000,
+        "min": 10000
+      },
+      "weight": 2
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "range": {
+        "max": 15,
+        "min": 15
+      },
+      "weight": 4
+    }
+  ],
+  "CommonEnemies": {
+    "add": [
+      "ED_Spider_ExploderTank"
+    ],
+    "clear": true,
+    "remove": []
+  },
+  "SpecialEnemies": {
+    "add": [],
+    "clear": true,
+    "remove": []
+  },
+  "DisruptiveEnemies": {
+    "add": [],
+    "clear": true,
+    "remove": []
+  },
+  "StationaryEnemies": {
+    "add": [
+      "ED_Spider_ExploderTank"
+    ],
+    "clear": true,
+    "remove": []
+  }
+}
