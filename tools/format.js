@@ -59,6 +59,16 @@ const keys = [
 
 keyOrder = new Map(keys.map((i, k) => [i, k]));
 
+const specialKeys = new Map([
+  ['min', 'max'],
+  ['weight', 'range']
+].map((o, i) => o.map((k, j) => [k, `_${String(j).padStart(4, '0')}_${k}`])).flat());
+
+function compareSet(a, b) {
+  if (a.length !== b.length) return false;
+  return a.every(v => b.has(v));
+}
+
 function getKeys(obj) {
   const toReturn = [];
   const keys = Array.isArray(obj) ? obj.keys() : Object.keys(obj);
@@ -85,7 +95,7 @@ function getKeyIndexDifficulty(key, index) {
     if (!keyOrder.has(v)) throw new Error(`Unknown property: "${v}"`);
     return keyOrder.get(v);
   } else {
-    return v;
+    return specialKeys.has(v) ? specialKeys.get(v) : v;
   }
 }
 

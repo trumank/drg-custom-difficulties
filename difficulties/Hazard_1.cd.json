@@ -50,122 +50,122 @@
   ],
   "EncounterDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 150,
-        "min": 50
-      },
-      "weight": 1
+        "min": 50,
+        "max": 150
+      }
     },
     {
+      "weight": 6,
       "range": {
-        "max": 350,
-        "min": 250
-      },
-      "weight": 6
+        "min": 250,
+        "max": 350
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 500,
-        "min": 400
-      },
-      "weight": 1
+        "min": 400,
+        "max": 500
+      }
     }
   ],
   "StationaryDifficulty": [
     {
+      "weight": 15,
       "range": {
-        "max": 0,
-        "min": 0
-      },
-      "weight": 15
+        "min": 0,
+        "max": 0
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 200,
-        "min": 150
-      },
-      "weight": 1
+        "min": 150,
+        "max": 200
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 350,
-        "min": 250
-      },
-      "weight": 1
+        "min": 250,
+        "max": 350
+      }
     }
   ],
   "EnemyWaveInterval": [
     {
+      "weight": 8.5,
       "range": {
-        "max": 500,
-        "min": 350
-      },
-      "weight": 8.5
+        "min": 350,
+        "max": 500
+      }
     }
   ],
   "EnemyNormalWaveInterval": [
     {
+      "weight": 2,
       "range": {
-        "max": 250,
-        "min": 150
-      },
-      "weight": 2
+        "min": 150,
+        "max": 250
+      }
     },
     {
+      "weight": 4,
       "range": {
-        "max": 450,
-        "min": 300
-      },
-      "weight": 4
+        "min": 300,
+        "max": 450
+      }
     }
   ],
   "EnemyNormalWaveDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 200,
-        "min": 100
-      },
-      "weight": 1
+        "min": 100,
+        "max": 200
+      }
     }
   ],
   "EnemyDiversity": [
     {
+      "weight": 1,
       "range": {
-        "max": 2,
-        "min": 1
-      },
-      "weight": 1
+        "min": 1,
+        "max": 2
+      }
     },
     {
+      "weight": 8,
       "range": {
-        "max": 4,
-        "min": 3
-      },
-      "weight": 8
+        "min": 3,
+        "max": 4
+      }
     }
   ],
   "StationaryEnemyDiversity": [
     {
+      "weight": 1,
       "range": {
-        "max": 2,
-        "min": 2
-      },
-      "weight": 1
+        "min": 2,
+        "max": 2
+      }
     }
   ],
   "VeteranNormal": [
     {
+      "weight": 1,
       "range": {
-        "max": 0,
-        "min": 0
-      },
-      "weight": 1
+        "min": 0,
+        "max": 0
+      }
     }
   ],
   "VeteranLarge": [],
   "DisruptiveEnemyPoolCount": {
-    "max": 1,
-    "min": 0
+    "min": 0,
+    "max": 1
   },
   "MinPoolSize": 5,
   "EnvironmentalDamageModifier": 0.7,

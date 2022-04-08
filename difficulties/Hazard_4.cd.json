@@ -38,110 +38,110 @@
   ],
   "StationaryDifficulty": [
     {
+      "weight": 2,
       "range": {
-        "max": 0,
-        "min": 0
-      },
-      "weight": 2
+        "min": 0,
+        "max": 0
+      }
     },
     {
+      "weight": 2,
       "range": {
-        "max": 200,
-        "min": 150
-      },
-      "weight": 2
+        "min": 150,
+        "max": 200
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 350,
-        "min": 250
-      },
-      "weight": 1
+        "min": 250,
+        "max": 350
+      }
     }
   ],
   "EnemyWaveInterval": [
     {
+      "weight": 2,
       "range": {
-        "max": 200,
-        "min": 180
-      },
-      "weight": 2
+        "min": 180,
+        "max": 200
+      }
     },
     {
+      "weight": 7.5,
       "range": {
-        "max": 300,
-        "min": 250
-      },
-      "weight": 7.5
+        "min": 250,
+        "max": 300
+      }
     }
   ],
   "EnemyNormalWaveInterval": [
     {
+      "weight": 3,
       "range": {
-        "max": 200,
-        "min": 180
-      },
-      "weight": 3
+        "min": 180,
+        "max": 200
+      }
     },
     {
+      "weight": 6,
       "range": {
-        "max": 300,
-        "min": 250
-      },
-      "weight": 6
+        "min": 250,
+        "max": 300
+      }
     }
   ],
   "EnemyNormalWaveDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 350,
-        "min": 250
-      },
-      "weight": 1
+        "min": 250,
+        "max": 350
+      }
     }
   ],
   "VeteranNormal": [
     {
+      "weight": 4,
       "range": {
-        "max": 0,
-        "min": 0
-      },
-      "weight": 4
+        "min": 0,
+        "max": 0
+      }
     },
     {
+      "weight": 6,
       "range": {
-        "max": 0.3,
-        "min": 0
-      },
-      "weight": 6
+        "min": 0,
+        "max": 0.3
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 0.6,
-        "min": 0
-      },
-      "weight": 1
+        "min": 0,
+        "max": 0.6
+      }
     },
     {
+      "weight": 0.5,
       "range": {
-        "max": 0.75,
-        "min": 0
-      },
-      "weight": 0.5
+        "min": 0,
+        "max": 0.75
+      }
     }
   ],
   "VeteranLarge": [
     {
+      "weight": 1,
       "range": {
-        "max": 0.15,
-        "min": 0
-      },
-      "weight": 1
+        "min": 0,
+        "max": 0.15
+      }
     }
   ],
   "DisruptiveEnemyPoolCount": {
-    "max": 2,
-    "min": 2
+    "min": 2,
+    "max": 2
   },
   "MinPoolSize": 7,
   "EnvironmentalDamageModifier": 1,

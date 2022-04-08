@@ -3,20 +3,20 @@
   "ResupplyCost": 20,
   "EnemyWaveInterval": [
     {
+      "weight": 2,
       "range": {
-        "max": 10000,
-        "min": 10000
-      },
-      "weight": 2
+        "min": 10000,
+        "max": 10000
+      }
     }
   ],
   "EnemyNormalWaveInterval": [
     {
+      "weight": 4,
       "range": {
-        "max": 15,
-        "min": 15
-      },
-      "weight": 4
+        "min": 15,
+        "max": 15
+      }
     }
   ],
   "CommonEnemies": {

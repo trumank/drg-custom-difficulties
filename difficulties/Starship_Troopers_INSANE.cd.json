@@ -48,87 +48,87 @@
   ],
   "StationaryDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 1500,
-        "min": 1000
-      },
-      "weight": 1
+        "min": 1000,
+        "max": 1500
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 2000,
-        "min": 1500
-      },
-      "weight": 1
+        "min": 1500,
+        "max": 2000
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 3500,
-        "min": 2500
-      },
-      "weight": 1
+        "min": 2500,
+        "max": 3500
+      }
     }
   ],
   "EnemyWaveInterval": [
     {
+      "weight": 2,
       "range": {
-        "max": 18,
-        "min": 16
-      },
-      "weight": 2
+        "min": 16,
+        "max": 18
+      }
     },
     {
+      "weight": 7.5,
       "range": {
-        "max": 28,
-        "min": 23
-      },
-      "weight": 7.5
+        "min": 23,
+        "max": 28
+      }
     },
     {
+      "weight": 0.5,
       "range": {
-        "max": 29,
-        "min": 29
-      },
-      "weight": 0.5
+        "min": 29,
+        "max": 29
+      }
     }
   ],
   "EnemyNormalWaveInterval": [
     {
+      "weight": 4,
       "range": {
-        "max": 15,
-        "min": 12
-      },
-      "weight": 4
+        "min": 12,
+        "max": 15
+      }
     },
     {
+      "weight": 2,
       "range": {
-        "max": 25,
-        "min": 18
-      },
-      "weight": 2
+        "min": 18,
+        "max": 25
+      }
     }
   ],
   "EnemyNormalWaveDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 4500,
-        "min": 3500
-      },
-      "weight": 1
+        "min": 3500,
+        "max": 4500
+      }
     }
   ],
   "StationaryEnemyDiversity": [
     {
+      "weight": 1,
       "range": {
-        "max": 40,
-        "min": 20
-      },
-      "weight": 1
+        "min": 20,
+        "max": 40
+      }
     }
   ],
   "DisruptiveEnemyPoolCount": {
-    "max": 7,
-    "min": 7
+    "min": 7,
+    "max": 7
   },
   "MaxActiveElites": 60,
   "EnvironmentalDamageModifier": 10,
