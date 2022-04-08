@@ -23,6 +23,9 @@ Vanilla Hazard 5
 ## [Hazard 7](difficulties/Hazard_7.cd.json) by Ike
 [Mod.io page](https://drg.mod.io/hazard-7)
 
+## [Hazard 5 Carry](difficulties/Hazard_5_Carry.cd.json)
+Hazard 5 with all properties that normally scale with player count fixed to 4 player values regardless of player count.
+
 ## [Hazard 5 - Praetorian Edition](difficulties/Hazard_5_Praetorian_Edition.cd.json)
 This is a demonstration custom difficulty that shows how to remove grunts and create a new praetorian descriptor that takes the place of grunts. The low rarity works like the grunt rarity in that it nearly guarantees praetorians get picked first for any spawns. A future version might demonstrate adjusting spawn costs and size to increase praetorian spawn counts.
 
