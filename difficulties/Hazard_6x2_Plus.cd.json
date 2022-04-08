@@ -248,11 +248,11 @@
     }
   },
   "CommonEnemies": {
+    "clear": false,
     "add": [
       "ED_Spider_Grunt_Attacker2",
       "ED_Spider_Tank_HeavySpawn_Common"
     ],
-    "clear": false,
     "remove": []
   },
   "SeasonalEvents": [],

@@ -20,27 +20,27 @@
     }
   ],
   "CommonEnemies": {
+    "clear": true,
     "add": [
       "ED_Spider_ExploderTank"
     ],
-    "clear": true,
     "remove": []
   },
   "SpecialEnemies": {
-    "add": [],
     "clear": true,
+    "add": [],
     "remove": []
   },
   "DisruptiveEnemies": {
-    "add": [],
     "clear": true,
+    "add": [],
     "remove": []
   },
   "StationaryEnemies": {
+    "clear": true,
     "add": [
       "ED_Spider_ExploderTank"
     ],
-    "clear": true,
     "remove": []
   }
 }

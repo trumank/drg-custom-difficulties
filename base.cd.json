@@ -55,172 +55,172 @@
   ],
   "EncounterDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 200,
-        "min": 100
-      },
-      "weight": 1
+        "min": 100,
+        "max": 200
+      }
     },
     {
+      "weight": 6,
       "range": {
-        "max": 400,
-        "min": 300
-      },
-      "weight": 6
+        "min": 300,
+        "max": 400
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 500,
-        "min": 400
-      },
-      "weight": 1
+        "min": 400,
+        "max": 500
+      }
     }
   ],
   "StationaryDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 0,
-        "min": 0
-      },
-      "weight": 1
+        "min": 0,
+        "max": 0
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 200,
-        "min": 150
-      },
-      "weight": 1
+        "min": 150,
+        "max": 200
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 350,
-        "min": 250
-      },
-      "weight": 1
+        "min": 250,
+        "max": 350
+      }
     }
   ],
   "EnemyWaveInterval": [
     {
+      "weight": 2,
       "range": {
-        "max": 180,
-        "min": 160
-      },
-      "weight": 2
+        "min": 160,
+        "max": 180
+      }
     },
     {
+      "weight": 7.5,
       "range": {
-        "max": 280,
-        "min": 230
-      },
-      "weight": 7.5
+        "min": 230,
+        "max": 280
+      }
     },
     {
+      "weight": 0.5,
       "range": {
-        "max": 299,
-        "min": 299
-      },
-      "weight": 0.5
+        "min": 299,
+        "max": 299
+      }
     }
   ],
   "EnemyNormalWaveInterval": [
     {
+      "weight": 4,
       "range": {
-        "max": 150,
-        "min": 120
-      },
-      "weight": 4
+        "min": 120,
+        "max": 150
+      }
     },
     {
+      "weight": 2,
       "range": {
-        "max": 250,
-        "min": 180
-      },
-      "weight": 2
+        "min": 180,
+        "max": 250
+      }
     }
   ],
   "EnemyNormalWaveDifficulty": [
     {
+      "weight": 1,
       "range": {
-        "max": 450,
-        "min": 350
-      },
-      "weight": 1
+        "min": 350,
+        "max": 450
+      }
     }
   ],
   "EnemyDiversity": [
     {
+      "weight": 2,
       "range": {
-        "max": 2,
-        "min": 1
-      },
-      "weight": 2
+        "min": 1,
+        "max": 2
+      }
     },
     {
+      "weight": 8,
       "range": {
-        "max": 4,
-        "min": 3
-      },
-      "weight": 8
+        "min": 3,
+        "max": 4
+      }
     },
     {
+      "weight": 1,
       "range": {
-        "max": 6,
-        "min": 5
-      },
-      "weight": 1
+        "min": 5,
+        "max": 6
+      }
     }
   ],
   "StationaryEnemyDiversity": [
     {
+      "weight": 1,
       "range": {
-        "max": 4,
-        "min": 2
-      },
-      "weight": 1
+        "min": 2,
+        "max": 4
+      }
     }
   ],
   "VeteranNormal": [
     {
+      "weight": 3,
       "range": {
-        "max": 0,
-        "min": 0
-      },
-      "weight": 3
+        "min": 0,
+        "max": 0
+      }
     },
     {
+      "weight": 9,
       "range": {
-        "max": 0.3,
-        "min": 0.15
-      },
-      "weight": 9
+        "min": 0.15,
+        "max": 0.3
+      }
     },
     {
+      "weight": 2,
       "range": {
-        "max": 0.6,
-        "min": 0.4
-      },
-      "weight": 2
+        "min": 0.4,
+        "max": 0.6
+      }
     },
     {
+      "weight": 0.5,
       "range": {
-        "max": 1,
-        "min": 1
-      },
-      "weight": 0.5
+        "min": 1,
+        "max": 1
+      }
     }
   ],
   "VeteranLarge": [
     {
+      "weight": 1,
       "range": {
-        "max": 0.175,
-        "min": 0.175
-      },
-      "weight": 1
+        "min": 0.175,
+        "max": 0.175
+      }
     }
   ],
   "DisruptiveEnemyPoolCount": {
-    "max": 3,
-    "min": 3
+    "min": 3,
+    "max": 3
   },
   "MinPoolSize": 8,
   "MaxActiveElites": 0,
@@ -236,28 +236,28 @@
   "EliteCooldown": 0,
   "EnemyDescriptors": {},
   "EnemyPool": {
-    "add": [],
     "clear": false,
+    "add": [],
     "remove": []
   },
   "CommonEnemies": {
-    "add": [],
     "clear": false,
+    "add": [],
     "remove": []
   },
   "SpecialEnemies": {
-    "add": [],
     "clear": false,
+    "add": [],
     "remove": []
   },
   "DisruptiveEnemies": {
-    "add": [],
     "clear": false,
+    "add": [],
     "remove": []
   },
   "StationaryEnemies": {
-    "add": [],
     "clear": false,
+    "add": [],
     "remove": []
   },
   "SeasonalEvents": [

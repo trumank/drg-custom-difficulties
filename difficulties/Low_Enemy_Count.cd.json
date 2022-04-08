@@ -204,13 +204,14 @@
   "AttackCooldownModifier": 4.5,
   "ProjectileSpeedModifier": 3.7,
   "CommonEnemies": {
+    "clear": false,
     "add": [
       "ED_Spider_Shooter"
     ],
-    "clear": false,
     "remove": []
   },
   "SpecialEnemies": {
+    "clear": true,
     "add": [
       "ED_Spider_Spitter",
       "ED_Spider_Swarmer",
@@ -218,7 +219,6 @@
       "ED_Spider_Exploder",
       "ED_Mactera_TripleShooter"
     ],
-    "clear": true,
     "remove": []
   },
   "SeasonalEvents": []

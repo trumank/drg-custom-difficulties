@@ -11,10 +11,10 @@
     }
   },
   "CommonEnemies": {
+    "clear": true,
     "add": [
       "ED_My_Praetorian"
     ],
-    "clear": true,
     "remove": []
   }
 }

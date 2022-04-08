@@ -61,7 +61,8 @@ keyOrder = new Map(keys.map((i, k) => [i, k]));
 
 const specialKeys = new Map([
   ['min', 'max'],
-  ['weight', 'range']
+  ['weight', 'range'],
+  ['clear', 'add', 'remove']
 ].map((o, i) => o.map((k, j) => [k, `_${String(j).padStart(4, '0')}_${k}`])).flat());
 
 function compareSet(a, b) {
