@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 5",
+  "Description": "Vanilla Hazard 5",
   "MaxActiveCritters": 40,
   "MaxActiveSwarmers": 60,
   "MaxActiveEnemies": 60,

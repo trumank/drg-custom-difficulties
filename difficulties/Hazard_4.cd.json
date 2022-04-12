@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 4",
+  "Description": "Vanilla Hazard 4",
   "ExtraLargeEnemyDamageResistance": [
     0.7,
     0.75,

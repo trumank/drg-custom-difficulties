@@ -1,5 +1,6 @@
 {
   "Name": "Starship Troopers Pro",
+  "Description": "FOR VETERANS OF THE STARSHIP TROOPERS ELITE MOD, this mod changes spawn size, so expect to be swimming in bugs if you don't kill fast enough. The enemies still have Haz4 specifications (speed*, damage, resistance, ..) as regular Starship Troopers. I don't recommend this mod for player level below 999, and even then I saw high level players rush in the middle of a new cave, die and make the mission fail as everybody risks their live or die in rescue attempts. This is easily comparable to Hazard 9 or Hazard 10.",
   "MaxActiveSwarmers": 180,
   "MaxActiveEnemies": 180,
   "ResupplyCost": 60,

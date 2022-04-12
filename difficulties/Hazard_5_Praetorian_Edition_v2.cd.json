@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 5 - Praetorian Edition",
+  "Description": "This is a demonstration custom difficulty that shows how to remove grunts and create a new praetorian descriptor that takes the place of grunts. The low rarity works like the grunt rarity in that it nearly guarantees praetorians get picked first for any spawns. A future version might demonstrate adjusting spawn costs and size to increase praetorian spawn counts.",
   "EnemyDescriptors": {
     "ED_My_Praetorian": {
       "Base": "ED_Spider_Tank",

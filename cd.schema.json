@@ -171,6 +171,11 @@
                 "Hazard 5"
             ]
         },
+        "Description": {
+            "type": "string",
+            "description": "A optional description of the difficulty.",
+            "default": ""
+        },
         "MaxActiveCritters": {
             "type": "integer",
             "description": "The maximum number of critters (maggots, lootbugs, silica harvesters, etc.) allowed to exist at once.",

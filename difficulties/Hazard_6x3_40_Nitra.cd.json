@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 6x3 40 Nitra",
+  "Description": "Hazard 6 with 3x enemy count, 40 nitra resupplies, and 180/180 spawn caps. Prospector and Data Vault disabled.",
   "MaxActiveSwarmers": 180,
   "MaxActiveEnemies": 180,
   "ResupplyCost": 40,

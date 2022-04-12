@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 5 - Praetorian Edition",
+  "Description": "Like the other version which replaces grunts with praetorians, but here we adjust the spawn cost to match grunts, increase the ideal spawn size from 3 to 6 and remove the maximum spawn size (was 4). I've also changed the rarity to 1, which is the lowest rarity present in the EnemyDescriptors and the rarity of grunts.",
   "EnemyDescriptors": {
     "ED_My_Praetorian": {
       "Base": "ED_Spider_Tank",

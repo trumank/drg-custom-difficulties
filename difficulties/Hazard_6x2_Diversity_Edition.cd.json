@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 6x2 - Diversity Edition",
+  "Description": "This plays very similarly to normal Hazard 6x2. It's identical except that EnemeyDiversity is always the max. This results in very different enemy compositions. This variant can bring a little spice when Hazard 6x2 is feeling a little too same-y.",
   "MaxActiveSwarmers": 180,
   "MaxActiveEnemies": 180,
   "ResupplyCost": 40,

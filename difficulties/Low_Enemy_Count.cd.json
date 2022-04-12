@@ -1,5 +1,6 @@
 {
   "Name": "Low Enemy Count",
+  "Description": "Not many bugs spawn. Difficult, but beatable.",
   "ExtraLargeEnemyDamageResistance": [
     3,
     3,

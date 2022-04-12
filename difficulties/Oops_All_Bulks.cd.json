@@ -1,5 +1,6 @@
 {
   "Name": "Oops all bulks",
+  "Description": "This is a Custom Difficulty version of Milligin's \"Oops all bulks\" event he often plays on stream. It's usually played on a refinery mission, but other mission types could be interesting as well.",
   "ResupplyCost": 20,
   "EnemyWaveInterval": [
     {

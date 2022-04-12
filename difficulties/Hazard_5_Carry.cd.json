@@ -1,5 +1,6 @@
 {
   "Name": "Hazard 5 Carry",
+  "Description": "Hazard 5 with all properties that normally scale with player count fixed to 4 player values regardless of player count.",
   "ExtraLargeEnemyDamageResistance": [
     1.7,
     1.7,
