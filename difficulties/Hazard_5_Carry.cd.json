@@ -1,46 +1,11 @@
 {
   "Name": "Hazard 5 Carry",
   "Description": "Hazard 5 with all properties that normally scale with player count fixed to 4 player values regardless of player count.",
-  "ExtraLargeEnemyDamageResistance": [
-    1.7,
-    1.7,
-    1.7,
-    1.7
-  ],
-  "ExtraLargeEnemyDamageResistanceB": [
-    1.3,
-    1.3,
-    1.3,
-    1.3
-  ],
-  "ExtraLargeEnemyDamageResistanceC": [
-    1.6,
-    1.6,
-    1.6,
-    1.6
-  ],
-  "ExtraLargeEnemyDamageResistanceD": [
-    1.65,
-    1.65,
-    1.65,
-    1.65
-  ],
-  "EnemyDamageResistance": [
-    1.5,
-    1.5,
-    1.5,
-    1.5
-  ],
-  "EnemyDamageModifier": [
-    3.4,
-    3.4,
-    3.4,
-    3.4
-  ],
-  "EnemyCountModifier": [
-    1.5,
-    1.5,
-    1.5,
-    1.5
-  ]
+  "ExtraLargeEnemyDamageResistance": 1.7,
+  "ExtraLargeEnemyDamageResistanceB": 1.3,
+  "ExtraLargeEnemyDamageResistanceC": 1.6,
+  "ExtraLargeEnemyDamageResistanceD": 1.65,
+  "EnemyDamageResistance": 1.5,
+  "EnemyDamageModifier": 3.4,
+  "EnemyCountModifier": 1.5
 }
