@@ -19,7 +19,7 @@
       }
     }
   ],
-  "CommonEnemies": {
+  "EnemyPool": {
     "clear": true,
     "add": [
       "ED_Spider_ExploderTank"
