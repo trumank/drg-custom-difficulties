@@ -27,6 +27,13 @@
     ],
     "remove": []
   },
+  "CommonEnemies": {
+    "clear": true,
+    "add": [
+      "ED_Spider_ExploderTank"
+    ],
+    "remove": []
+  },
   "SpecialEnemies": {
     "clear": true,
     "add": [],
