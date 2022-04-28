@@ -417,6 +417,10 @@
             "type": "number",
             "description": "How quickly the constant pressure waves on point extraction scale as time goes on. Does not seem to do anything when increased higher than 1."
         },
+        "HazardBonus": {
+            "type": "number",
+            "description": "The hazard bonus reward for the difficulty."
+        },
         "FriendlyFireModifier": {
             "type": "number",
             "description": "The amount of damage done to other players."

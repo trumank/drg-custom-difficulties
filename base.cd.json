@@ -227,6 +227,7 @@
   "MaxActiveElites": 0,
   "EnvironmentalDamageModifier": 1.1,
   "PointExtractionScalar": 1.1,
+  "HazardBonus": 1.33,
   "FriendlyFireModifier": 0.7,
   "WaveStartDelayScale": 0,
   "SpeedModifier": 1.15,

@@ -39,6 +39,7 @@ const keys = [
   'MaxActiveElites',
   'EnvironmentalDamageModifier',
   'PointExtractionScalar',
+  'HazardBonus',
   'FriendlyFireModifier',
   'WaveStartDelayScale',
   'SpeedModifier',

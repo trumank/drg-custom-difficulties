@@ -171,6 +171,7 @@
   "MinPoolSize": 5,
   "EnvironmentalDamageModifier": 0.7,
   "PointExtractionScalar": 0.7,
+  "HazardBonus": 0.25,
   "FriendlyFireModifier": 0.1,
   "WaveStartDelayScale": 1,
   "SpeedModifier": 0.8,
