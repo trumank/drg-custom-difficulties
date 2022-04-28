@@ -264,7 +264,8 @@
   },
   "SeasonalEvents": [
     "SE_ProspectorDrone",
-    "SE_ProspectorDataDeposit"
+    "SE_ProspectorDataDeposit",
+    "SE_RivalBomb"
   ],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,

@@ -547,13 +547,15 @@
             "description": "An array of season events that can spawn. Can be used to disable events such as the Prospector which can be quite disruptive if encountered on high enemy count missions.",
             "default": [
                 "SE_ProspectorDrone",
-                "SE_ProspectorDataDeposit"
+                "SE_ProspectorDataDeposit",
+                "SE_RivalBomb"
             ],
             "items": {
                 "type": "string",
                 "enum": [
                     "SE_ProspectorDrone",
-                    "SE_ProspectorDataDeposit"
+                    "SE_ProspectorDataDeposit",
+                    "SE_RivalBomb"
                 ]
             }
         },
