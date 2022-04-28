@@ -316,7 +316,7 @@
             ]
         },
         "EnemyDamageModifier": {
-            "description": "The amount of damage done to player by enemies for the corresponding player count.",
+            "description": "The amount of damage done to players by enemies for the corresponding player count.",
             "default": [2.8, 3, 3.2, 3.4],
             "oneOf": [{
                     "type": "array",
@@ -327,7 +327,7 @@
             ]
         },
         "EnemyCountModifier": {
-            "description": "The amount of damage done to player by enemies for the corresponding player count.",
+            "description": "The number of enemies spawned for nearly all wave and encounter types for the corresponding player count.",
             "default": [0.85, 0.85, 1.25, 1.5],
             "oneOf": [{
                     "type": "array",
