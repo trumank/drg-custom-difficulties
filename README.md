@@ -44,7 +44,7 @@ These are the values for "EnemyCountModifier" for the respective increased enemy
 * Hazard 6, 1.25x Enemies - `"EnemyCountModifier": [1.1875, 1.3125, 1.6875, 2.0625]`
 * Hazard 6, 1.5x Enemies - `"EnemyCountModifier": [1.425, 1.575, 2.025, 2.475]`
 * Hazard 6, 1.75x Enemies - `"EnemyCountModifier": [1.6625, 1.8375, 2.3625, 2.8875]`
-* Hazard 6, 2x Enemies - since this is the most popular variant of Hazard 6, there is already a built "[Hazard 6x2](https://github.com/Pugglez/drg-custom-difficulties#hazard-6x2)" preset that you can start from instead.
+* Hazard 6, 2x Enemies - since this is the most popular variant of Hazard 6, there is already a custom "Hazard 6x2" preset below that you can start from instead.
 
 ### "ResupplyCost"
 This setting controls how much nitra it costs to call a resupply pod.
