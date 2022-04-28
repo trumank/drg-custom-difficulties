@@ -140,6 +140,21 @@
                 "SpawnAmountModifier": {
                     "type": "number"
                 },
+                "Elite": {
+                    "type": "boolean",
+                    "description": "Whether the enemy should be turned into an elite.",
+                    "default": false
+                },
+                "Scale": {
+                    "type": "number",
+                    "description": "How large the enemy is",
+                    "default": 1
+                },
+                "TimeDilation": {
+                    "type": "number",
+                    "description": "How fast the enemy moves relative to everything else.",
+                    "default": 1
+                },
                 "PawnStats": {"$ref": "#/$defs/pawnStats"}
             }
         },
