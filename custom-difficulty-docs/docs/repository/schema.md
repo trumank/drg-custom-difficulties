@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Schema Documentation
+# Schema
 See: [Schema](pathname:///schema.html)
 
 Generated using https://github.com/coveooss/json-schema-for-humans
