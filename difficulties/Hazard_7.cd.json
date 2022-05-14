@@ -1,9 +1,18 @@
 {
   "Name": "Hazard 7",
-  "Description": "Imported from Ike's [Hazard 7 on Mod.io](https://drg.mod.io/hazard-7)",
-  "MaxActiveSwarmers": 180,
-  "MaxActiveEnemies": 180,
-  "ResupplyCost": 50,
+  "Description": "Base preset for Ike's [Hazard 7](https://drg.mod.io/hazard-7) mod. Unlike the original mod, 1) spawn cap is increased to 60/60/90/90 for 1,2,3,4 players, respectively, from the vanilla 60 spawn cap and 2) the resupply pod cost is 80 Nitra cost.",
+  "MaxActiveSwarmers": [
+    60,
+    60,
+    90,
+    90
+  ],
+  "MaxActiveEnemies": [
+    60,
+    60,
+    90,
+    90
+  ],
   "ExtraLargeEnemyDamageResistance": [
     1.4,
     1.7,

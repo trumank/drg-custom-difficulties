@@ -30,10 +30,10 @@ Like the other version which replaces grunts with praetorians, but here we adjus
 This is a demonstration custom difficulty that shows how to remove grunts and create a new praetorian descriptor that takes the place of grunts. The low rarity works like the grunt rarity in that it nearly guarantees praetorians get picked first for any spawns. A future version might demonstrate adjusting spawn costs and size to increase praetorian spawn counts.
 
 ## [Hazard 6](difficulties/Hazard_6.cd.json)
-Imported from Ike's [Hazard 6 on Mod.io](https://drg.mod.io/ike)
+Base preset for Ike's [Hazard 6](https://drg.mod.io/ike) mod. Unlike the original mod, 1) spawn cap is increased to 60/60/90/90 for 1,2,3,4 players, respectively, from the vanilla 60 spawn cap and 2) the resupply pod cost is 80 Nitra cost.
 
-## [Hazard 6x2 40 Nitra](difficulties/Hazard_6x2_40_Nitra.cd.json)
-Hazard 6 with 2x enemy count, 40 nitra resupplies, and 180/180 spawn caps. Prospector and Data Vault disabled.
+## [Hazard 6x2](difficulties/Hazard_6x2.cd.json)
+Hazard 6 with 2x enemies. Resupply Pod cost is 40 Nitra and spawn cap is 100/150/180/180. Prospector is disabled.
 
 ## [Hazard 6x2 - Diversity Edition](difficulties/Hazard_6x2_Diversity_Edition.cd.json)
 This plays very similarly to normal Hazard 6x2. It's identical except that EnemeyDiversity is always the max. This results in very different enemy compositions. This variant can bring a little spice when Hazard 6x2 is feeling a little too same-y.
@@ -45,7 +45,7 @@ Experimenting with adding some more enemy variants to otherwise normal hazard6x2
 Hazard 6 with 3x enemy count, 40 nitra resupplies, and 180/180 spawn caps. Prospector and Data Vault disabled.
 
 ## [Hazard 7](difficulties/Hazard_7.cd.json)
-Imported from Ike's [Hazard 7 on Mod.io](https://drg.mod.io/hazard-7)
+Base preset for Ike's [Hazard 7](https://drg.mod.io/hazard-7) mod. Unlike the original mod, 1) spawn cap is increased to 60/60/90/90 for 1,2,3,4 players, respectively, from the vanilla 60 spawn cap and 2) the resupply pod cost is 80 Nitra cost.
 
 ## [Low Enemy Count](difficulties/Low_Enemy_Count.cd.json)
 Not many bugs spawn. Difficult, but beatable.
