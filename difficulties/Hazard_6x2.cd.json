@@ -1,15 +1,15 @@
 {
   "Name": "Hazard 6x2",
-  "Description": "Hazard 6x2 preset ([Hazard 6](https://drg.mod.io/ike) with 2x enemy count). This is the most popular increased enemy count variant for Hazard 6.\nAlong with increasing the enemy count to 2x of Hazard 6, this preset sets these following values:\n\n- Resupply Pod cost is 40 Nitra.\n  - If desired, can change this to be anywhere from 40-60 Nitra as the recommended setting.\n- Enemy spawn cap (both max swarmers and max enemies) is set to 100/180/180/180 for 1/2/3/4 players, respectively.\n- Prospector enemy event is disabled",
+  "Description": "Hazard 6 with 2x enemies. Resupply Pod cost is 40 Nitra and spawn cap is 100/150/180/180. Prospector is disabled.",
   "MaxActiveSwarmers": [
     100,
-    180,
+    150,
     180,
     180
   ],
   "MaxActiveEnemies": [
     100,
-    180,
+    150,
     180,
     180
   ],
