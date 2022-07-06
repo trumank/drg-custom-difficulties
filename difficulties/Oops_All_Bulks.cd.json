@@ -20,6 +20,12 @@
       }
     }
   ],
+  "EnemyDescriptors": {
+    "ED_Spider_ExploderTank": {
+      "Base": "ED_Spider_ExploderTank",
+      "CanBeUsedForConstantPressure": true
+    }
+  },
   "EnemyPool": {
     "clear": true,
     "add": [
