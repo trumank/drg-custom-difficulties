@@ -1,0 +1,76 @@
+{
+  "Name": "Hazard 5.5",
+  "Description": "Vanilla Hazard 5.5",
+  "ExtraLargeEnemyDamageResistanceB": [
+    0.7,
+    0.7,
+    1.1,
+    1.3
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.35,
+    1.35,
+    1.55,
+    1.7
+  ],
+  "EnemyDamageResistance": [
+    1.3,
+    1.3,
+    1.5,
+    1.6
+  ],
+  "EnemyDamageModifier": [
+    3,
+    3.2,
+    3.4,
+    3.6
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 3,
+      "range": {
+        "min": 100,
+        "max": 200
+      }
+    },
+    {
+      "weight": 6,
+      "range": {
+        "min": 250,
+        "max": 350
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 160,
+        "max": 180
+      }
+    },
+    {
+      "weight": 7.5,
+      "range": {
+        "min": 230,
+        "max": 280
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 350,
+        "max": 450
+      }
+    }
+  ],
+  "EnvironmentalDamageModifier": 1.15,
+  "PointExtractionScalar": 1.15,
+  "SpeedModifier": 1.2
+}

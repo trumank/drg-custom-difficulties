@@ -11,11 +11,20 @@ Vanilla Hazard 1
 ## [Hazard 2](difficulties/Hazard_2.cd.json)
 Vanilla Hazard 2
 
+## [Hazard 3.5](difficulties/Hazard_3.5.cd.json)
+Vanilla Hazard 3.5
+
 ## [Hazard 3](difficulties/Hazard_3.cd.json)
 Vanilla Hazard 3
 
+## [Hazard 4.5](difficulties/Hazard_4.5.cd.json)
+Vanilla Hazard 4.5
+
 ## [Hazard 4](difficulties/Hazard_4.cd.json)
 Vanilla Hazard 4
+
+## [Hazard 5.5](difficulties/Hazard_5.5.cd.json)
+Vanilla Hazard 5.5
 
 ## [Hazard 5](difficulties/Hazard_5.cd.json)
 Vanilla Hazard 5
