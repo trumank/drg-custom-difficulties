@@ -1,393 +1,393 @@
 {
-    "Name": "Hazard 6x2 Diablo Edition",
-    "Description": "The forbidden Spicy Edition. Enjoy at your own risk. Made by The Brain.",
-    "MaxActiveSwarmers": [
-        90,
-        120,
-        180,
-        180
-    ],
-    "MaxActiveEnemies": [
-        90,
-        120,
-        180,
-        180
-    ],
-    "ResupplyCost": 50,
-    "ExtraLargeEnemyDamageResistance": [
-        1,
-        1.3,
-        1.7,
-        2.1
-    ],
-    "ExtraLargeEnemyDamageResistanceB": [
-        1,
-        1.3,
-        1.5,
-        1.7
-    ],
-    "ExtraLargeEnemyDamageResistanceC": [
-        1,
-        1.3,
-        1.7,
-        2.1
-    ],
-    "ExtraLargeEnemyDamageResistanceD": [
-        1.5,
-        1.55,
-        1.75,
-        1.9
-    ],
-    "EnemyDamageResistance": [
-        1.4,
-        1.5,
-        1.6,
-        1.75
-    ],
-    "EnemyDamageModifier": [
-        3.3,
-        3.65,
-        3.9,
-        4.1
-    ],
-    "EnemyCountModifier": [
-        2.1,
-        2.3,
-        2.95,
-        3.6
-    ],
-    "EncounterDifficulty": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 171,
-                "max": 343
-            }
-        },
-        {
-            "weight": 7,
-            "range": {
-                "min": 514,
-                "max": 686
-            }
-        },
-        {
-            "weight": 2,
-            "range": {
-                "min": 686,
-                "max": 857
-            }
-        }
-    ],
-    "StationaryDifficulty": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 650,
-                "max": 850
-            }
-        }
-    ],
-    "EnemyWaveInterval": [
-        {
-            "weight": 2,
-            "range": {
-                "min": 97,
-                "max": 108
-            }
-        },
-        {
-            "weight": 7.5,
-            "range": {
-                "min": 139,
-                "max": 169
-            }
-        },
-        {
-            "weight": 0.5,
-            "range": {
-                "min": 180,
-                "max": 180
-            }
-        }
-    ],
-    "EnemyNormalWaveInterval": [
-        {
-            "weight": 0.2,
-            "range": {
-                "min": 15,
-                "max": 100
-            }
-        },
-        {
-            "weight": 2,
-            "range": {
-                "min": 130,
-                "max": 170
-            }
-        },
-        {
-            "weight": 4,
-            "range": {
-                "min": 175,
-                "max": 210
-            }
-        },
-        {
-            "weight": 2,
-            "range": {
-                "min": 180,
-                "max": 250
-            }
-        }
-    ],
-    "EnemyNormalWaveDifficulty": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 525,
-                "max": 675
-            }
-        }
-    ],
-    "EnemyDiversity": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 1,
-                "max": 3
-            }
-        },
-        {
-            "weight": 3,
-            "range": {
-                "min": 4,
-                "max": 5
-            }
-        },
-        {
-            "weight": 7,
-            "range": {
-                "min": 5,
-                "max": 6
-            }
-        },
-        {
-            "weight": 4,
-            "range": {
-                "min": 6,
-                "max": 9
-            }
-        }
-    ],
-    "StationaryEnemyDiversity": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 4,
-                "max": 4
-            }
-        }
-    ],
-    "VeteranNormal": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 0,
-                "max": 0
-            }
-        },
-        {
-            "weight": 4,
-            "range": {
-                "min": 0.15,
-                "max": 0.4
-            }
-        },
-        {
-            "weight": 3,
-            "range": {
-                "min": 0.4,
-                "max": 0.7
-            }
-        },
-        {
-            "weight": 2,
-            "range": {
-                "min": 1,
-                "max": 1
-            }
-        }
-    ],
-    "VeteranLarge": [
-        {
-            "weight": 1,
-            "range": {
-                "min": 0.2,
-                "max": 0.2
-            }
-        }
-    ],
-    "DisruptiveEnemyPoolCount": {
-        "min": 10,
-        "max": 10
+  "Name": "Hazard 6x2 Diablo Edition",
+  "Description": "The forbidden Spicy Edition. Enjoy at your own risk. Made by The Brain.",
+  "MaxActiveSwarmers": [
+    90,
+    120,
+    180,
+    180
+  ],
+  "MaxActiveEnemies": [
+    90,
+    120,
+    180,
+    180
+  ],
+  "ResupplyCost": 50,
+  "ExtraLargeEnemyDamageResistance": [
+    1,
+    1.3,
+    1.7,
+    2.1
+  ],
+  "ExtraLargeEnemyDamageResistanceB": [
+    1,
+    1.3,
+    1.5,
+    1.7
+  ],
+  "ExtraLargeEnemyDamageResistanceC": [
+    1,
+    1.3,
+    1.7,
+    2.1
+  ],
+  "ExtraLargeEnemyDamageResistanceD": [
+    1.5,
+    1.55,
+    1.75,
+    1.9
+  ],
+  "EnemyDamageResistance": [
+    1.4,
+    1.5,
+    1.6,
+    1.75
+  ],
+  "EnemyDamageModifier": [
+    3.3,
+    3.65,
+    3.9,
+    4.1
+  ],
+  "EnemyCountModifier": [
+    2.1,
+    2.3,
+    2.95,
+    3.6
+  ],
+  "EncounterDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 171,
+        "max": 343
+      }
     },
-    "MinPoolSize": 20,
-    "EnvironmentalDamageModifier": 1.4,
-    "PointExtractionScalar": 1.4,
-    "FriendlyFireModifier": 0.9,
-    "SpeedModifier": 1.35,
-    "AttackCooldownModifier": 1.75,
-    "ProjectileSpeedModifier": 1.9,
-    "EnemyDescriptors": {
-        "ED_Bomber": {
-            "Base": "ED_Bomber",
-            "Rarity": 12.311,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_FacilityTurret_Barrier": {
-            "Base": "ED_FacilityTurret_Barrier",
-            "DifficultyRating": 24,
-            "IdealSpawnSize": 5,
-            "MaxSpawnCount": 5000,
-            "SpawnAmountModifier": 0.5
-        },
-        "ED_FacilityTurret_Burst": {
-            "Base": "ED_FacilityTurret_Burst",
-            "DifficultyRating": 24,
-            "IdealSpawnSize": 5,
-            "MaxSpawnCount": 5000,
-            "SpawnAmountModifier": 0.5
-        },
-        "ED_FacilityTurret_Sniper": {
-            "Base": "ED_FacilityTurret_Sniper",
-            "DifficultyRating": 24,
-            "IdealSpawnSize": 5,
-            "MaxSpawnCount": 5000,
-            "SpawnAmountModifier": 0.5
-        },
-        "ED_Grabber": {
-            "Base": "ED_Grabber",
-            "Rarity": 13.11,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Jelly_Swarmer": {
-            "Base": "ED_Jelly_Swarmer",
-            "Rarity": 40,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Mactera_Shooter_Normal": {
-            "Base": "ED_Mactera_Shooter_Normal",
-            "Rarity": 11.161,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Mactera_TripleShooter": {
-            "Base": "ED_Mactera_TripleShooter",
-            "Rarity": 11.746,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_PatrolBot": {
-            "Base": "ED_PatrolBot",
-            "DifficultyRating": 150,
-            "IdealSpawnSize": 5,
-            "MaxSpawnCount": 5000,
-            "SpawnAmountModifier": 0.5
-        },
-        "ED_Shark": {
-            "Base": "ED_Shark",
-            "Rarity": 46.155998,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Shredder": {
-            "Base": "ED_Shredder",
-            "DifficultyRating": 24,
-            "IdealSpawnSize": 17,
-            "MaxSpawnCount": 5000,
-            "SpawnAmountModifier": 0.5,
-            "MinSpawnCount": 2
-        },
-        "ED_Spider_Buffer": {
-            "Base": "ED_Spider_Buffer",
-            "Rarity": 12.311,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_Exploder": {
-            "Base": "ED_Spider_Exploder",
-            "Rarity": 10,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_ExploderTank": {
-            "Base": "ED_Spider_ExploderTank",
-            "Rarity": 13.11,
-            "DifficultyRating": 24,
-            "MaxSpawnCount": 2,
-            "SpawnAmountModifier": 3,
-            "CanBeUsedForConstantPressure": true,
-            "SpawnSpread": 10000
-        },
-        "ED_Spider_Grunt": {
-            "Base": "ED_Spider_Grunt",
-            "Rarity": 7,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_RapidShooter": {
-            "Base": "ED_Spider_RapidShooter",
-            "Rarity": 12.589,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_Shooter": {
-            "Base": "ED_Spider_Shooter",
-            "Rarity": 11.487,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_Spitter": {
-            "Base": "ED_Spider_Spitter",
-            "DifficultyRating": 15,
-            "SpawnCountModifier": 0.35,
-            "Rarity": 11.962,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_Swarmer": {
-            "Base": "ED_Spider_Swarmer",
-            "Rarity": 11.487,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Spider_Tank": {
-            "Base": "ED_Spider_Tank",
-            "Rarity": 11.161,
-            "MaxSpawnCount": 7,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Terminator": {
-            "Base": "ED_Terminator",
-            "DifficultyRating": 280,
-            "MaxSpawnCount": 1,
-            "SpawnAmountModifier": 0.5
-        },
-        "ED_Woodlouse": {
-            "Base": "ED_Woodlouse",
-            "Rarity": 12.311,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_Woodlouse_Youngling": {
-            "Base": "ED_Woodlouse_Youngling",
-            "Rarity": 30.872999,
-            "CanBeUsedForConstantPressure": true
-        },
-        "ED_CaveLeech": {
-            "Base": "ED_CaveLeech",
-            "DifficultyRating": 50,
-            "TimeDilation": 1.5
-        }
+    {
+      "weight": 7,
+      "range": {
+        "min": 514,
+        "max": 686
+      }
     },
-    "SeasonalEvents": [
-        "SE_ProspectorDataDeposit",
-        "SE_RivalBomb"
-    ],
-    "EscortMule": {
-        "FriendlyFireModifier": 0.1,
-        "BigHitDamageModifier": 0.75,
-        "BigHitDamageReductionThreshold": 0,
-        "NeutralDamageModifier": 0.1
+    {
+      "weight": 2,
+      "range": {
+        "min": 686,
+        "max": 857
+      }
     }
+  ],
+  "StationaryDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 650,
+        "max": 850
+      }
+    }
+  ],
+  "EnemyWaveInterval": [
+    {
+      "weight": 2,
+      "range": {
+        "min": 97,
+        "max": 108
+      }
+    },
+    {
+      "weight": 7.5,
+      "range": {
+        "min": 139,
+        "max": 169
+      }
+    },
+    {
+      "weight": 0.5,
+      "range": {
+        "min": 180,
+        "max": 180
+      }
+    }
+  ],
+  "EnemyNormalWaveInterval": [
+    {
+      "weight": 0.2,
+      "range": {
+        "min": 15,
+        "max": 100
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 130,
+        "max": 170
+      }
+    },
+    {
+      "weight": 4,
+      "range": {
+        "min": 175,
+        "max": 210
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 180,
+        "max": 250
+      }
+    }
+  ],
+  "EnemyNormalWaveDifficulty": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 525,
+        "max": 675
+      }
+    }
+  ],
+  "EnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "weight": 3,
+      "range": {
+        "min": 4,
+        "max": 5
+      }
+    },
+    {
+      "weight": 7,
+      "range": {
+        "min": 5,
+        "max": 6
+      }
+    },
+    {
+      "weight": 4,
+      "range": {
+        "min": 6,
+        "max": 9
+      }
+    }
+  ],
+  "StationaryEnemyDiversity": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 4,
+        "max": 4
+      }
+    }
+  ],
+  "VeteranNormal": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    {
+      "weight": 4,
+      "range": {
+        "min": 0.15,
+        "max": 0.4
+      }
+    },
+    {
+      "weight": 3,
+      "range": {
+        "min": 0.4,
+        "max": 0.7
+      }
+    },
+    {
+      "weight": 2,
+      "range": {
+        "min": 1,
+        "max": 1
+      }
+    }
+  ],
+  "VeteranLarge": [
+    {
+      "weight": 1,
+      "range": {
+        "min": 0.2,
+        "max": 0.2
+      }
+    }
+  ],
+  "DisruptiveEnemyPoolCount": {
+    "min": 10,
+    "max": 10
+  },
+  "MinPoolSize": 20,
+  "EnvironmentalDamageModifier": 1.4,
+  "PointExtractionScalar": 1.4,
+  "FriendlyFireModifier": 0.9,
+  "SpeedModifier": 1.35,
+  "AttackCooldownModifier": 1.75,
+  "ProjectileSpeedModifier": 1.9,
+  "EnemyDescriptors": {
+    "ED_Bomber": {
+      "Base": "ED_Bomber",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 12.311
+    },
+    "ED_CaveLeech": {
+      "Base": "ED_CaveLeech",
+      "DifficultyRating": 50,
+      "TimeDilation": 1.5
+    },
+    "ED_FacilityTurret_Barrier": {
+      "Base": "ED_FacilityTurret_Barrier",
+      "DifficultyRating": 24,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5000,
+      "SpawnAmountModifier": 0.5
+    },
+    "ED_FacilityTurret_Burst": {
+      "Base": "ED_FacilityTurret_Burst",
+      "DifficultyRating": 24,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5000,
+      "SpawnAmountModifier": 0.5
+    },
+    "ED_FacilityTurret_Sniper": {
+      "Base": "ED_FacilityTurret_Sniper",
+      "DifficultyRating": 24,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5000,
+      "SpawnAmountModifier": 0.5
+    },
+    "ED_Grabber": {
+      "Base": "ED_Grabber",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 13.11
+    },
+    "ED_Jelly_Swarmer": {
+      "Base": "ED_Jelly_Swarmer",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 40
+    },
+    "ED_Mactera_Shooter_Normal": {
+      "Base": "ED_Mactera_Shooter_Normal",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 11.161
+    },
+    "ED_Mactera_TripleShooter": {
+      "Base": "ED_Mactera_TripleShooter",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 11.746
+    },
+    "ED_PatrolBot": {
+      "Base": "ED_PatrolBot",
+      "DifficultyRating": 150,
+      "IdealSpawnSize": 5,
+      "MaxSpawnCount": 5000,
+      "SpawnAmountModifier": 0.5
+    },
+    "ED_Shark": {
+      "Base": "ED_Shark",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 46.155998
+    },
+    "ED_Shredder": {
+      "Base": "ED_Shredder",
+      "DifficultyRating": 24,
+      "IdealSpawnSize": 17,
+      "MaxSpawnCount": 5000,
+      "SpawnAmountModifier": 0.5,
+      "MinSpawnCount": 2
+    },
+    "ED_Spider_Buffer": {
+      "Base": "ED_Spider_Buffer",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 12.311
+    },
+    "ED_Spider_Exploder": {
+      "Base": "ED_Spider_Exploder",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 10
+    },
+    "ED_Spider_ExploderTank": {
+      "Base": "ED_Spider_ExploderTank",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 13.11,
+      "DifficultyRating": 24,
+      "MaxSpawnCount": 2,
+      "SpawnAmountModifier": 3,
+      "SpawnSpread": 10000
+    },
+    "ED_Spider_Grunt": {
+      "Base": "ED_Spider_Grunt",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 7
+    },
+    "ED_Spider_RapidShooter": {
+      "Base": "ED_Spider_RapidShooter",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 12.589
+    },
+    "ED_Spider_Shooter": {
+      "Base": "ED_Spider_Shooter",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 11.487
+    },
+    "ED_Spider_Spitter": {
+      "Base": "ED_Spider_Spitter",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 11.962,
+      "DifficultyRating": 15,
+      "SpawnCountModifier": 0.35
+    },
+    "ED_Spider_Swarmer": {
+      "Base": "ED_Spider_Swarmer",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 11.487
+    },
+    "ED_Spider_Tank": {
+      "Base": "ED_Spider_Tank",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 11.161,
+      "MaxSpawnCount": 7
+    },
+    "ED_Terminator": {
+      "Base": "ED_Terminator",
+      "DifficultyRating": 280,
+      "MaxSpawnCount": 1,
+      "SpawnAmountModifier": 0.5
+    },
+    "ED_Woodlouse": {
+      "Base": "ED_Woodlouse",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 12.311
+    },
+    "ED_Woodlouse_Youngling": {
+      "Base": "ED_Woodlouse_Youngling",
+      "CanBeUsedForConstantPressure": true,
+      "Rarity": 30.872999
+    }
+  },
+  "SeasonalEvents": [
+    "SE_ProspectorDataDeposit",
+    "SE_RivalBomb"
+  ],
+  "EscortMule": {
+    "FriendlyFireModifier": 0.1,
+    "BigHitDamageModifier": 0.75,
+    "BigHitDamageReductionThreshold": 0,
+    "NeutralDamageModifier": 0.1
+  }
 }
