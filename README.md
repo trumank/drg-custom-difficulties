@@ -44,18 +44,6 @@ This is a demonstration custom difficulty that shows how to remove grunts and cr
 ## [Hazard 5x2, 60 Nitra](difficulties/Hazard_5x2_60_Nitra.cd.json)
 Hazard 5, 2x enemies, 60 nitra resup cost
 
-## [Hazard 5x2 50 Nitra Spicy Edition (Fire)](difficulties/Hazard_5x2_Spicy_Fire.cd.json)
-This is for fans Hazard 5 with x2 enemies that are looking to add some spice, but don't want to jump to snorting Carolina Reapers in Hazard 6x2. The bugs are a little faster, a little stronger, a little beefier, and there are a few more of them. Variety is the spice of life and that's what you're getting here. With mild, you can expect enemy compositions familiar to Hazard 5 players. With Medium, your team will face more spitters, more bulks, more grabbers, generally more of the spicy enemies. With Hot, your team will face even more variety. You'll face unusual enemy compositions you've never seen before. For the truly adventurous there is Fire. With Fire, the game is free to go wild and you'll face true RNG. Diablo doesn't exist. V2
-
-## [Hazard 5x2 50 Nitra Spicy Edition (Hot)](difficulties/Hazard_5x2_Spicy_Hot.cd.json)
-This is for fans Hazard 5 with x2 enemies that are looking to add some spice, but don't want to jump to snorting Carolina Reapers in Hazard 6x2. The bugs are a little faster, a little stronger, a little beefier, and there are a few more of them. Variety is the spice of life and that's what you're getting here. With mild, you can expect enemy compositions familiar to Hazard 5 players. With Medium, your team will face more spitters, more bulks, more grabbers, generally more of the spicy enemies. With Hot, your team will face even more variety. You'll face unusual enemy compositions you've never seen before. For the truly adventurous there is Fire. With Fire, the game is free to go wild and you'll face true RNG. Diablo doesn't exist. V2
-
-## [Hazard 5x2 50 Nitra Spicy Edition (Medium)](difficulties/Hazard_5x2_Spicy_Medium.cd.json)
-This is for fans Hazard 5 with x2 enemies that are looking to add some spice, but don't want to jump to snorting Carolina Reapers in Hazard 6x2. The bugs are a little faster, a little stronger, a little beefier, and there are a few more of them. Variety is the spice of life and that's what you're getting here. With mild, you can expect enemy compositions familiar to Hazard 5 players. With Medium, your team will face more spitters, more bulks, more grabbers, generally more of the spicy enemies. With Hot, your team will face even more variety. You'll face unusual enemy compositions you've never seen before. For the truly adventurous there is Fire. With Fire, the game is free to go wild and you'll face true RNG. Diablo doesn't exist. V2
-
-## [Hazard 5x2 50 Nitra Spicy Edition (Mild)](difficulties/Hazard_5x2_Spicy_Mild.cd.json)
-This is for fans Hazard 5 with x2 enemies that are looking to add some spice, but don't want to jump to snorting Carolina Reapers in Hazard 6x2. The bugs are a little faster, a little stronger, a little beefier, and there are a few more of them. Variety is the spice of life and that's what you're getting here. With mild, you can expect enemy compositions familiar to Hazard 5 players. With Medium, your team will face more spitters, more bulks, more grabbers, generally more of the spicy enemies. With Hot, your team will face even more variety. You'll face unusual enemy compositions you've never seen before. For the truly adventurous there is Fire. With Fire, the game is free to go wild and you'll face true RNG. Diablo doesn't exist. V2
-
 ## [Hazard 6](difficulties/Hazard_6.cd.json)
 Imported from Ike's [Hazard 6 on Mod.io](https://drg.mod.io/ike)
 
@@ -64,9 +52,6 @@ Hazard 6 with 2x enemy count, 40 nitra resupplies, and 180/180 spawn caps. Prosp
 
 ## [Hazard 6x2 60 Nitra](difficulties/Hazard_6x2_60_Nitra.cd.json)
 Hazard 6x2, 60 nitra per resupply, typically used for EDDs.
-
-## [Hazard 6x2 Diablo Edition](difficulties/Hazard_6x2_Diablo_Edition.cd.json)
-The forbidden Spicy Edition. Enjoy at your own risk. Made by The Brain.
 
 ## [Hazard 6x2 - Diversity Edition](difficulties/Hazard_6x2_Diversity_Edition.cd.json)
 This plays very similarly to normal Hazard 6x2. It's identical except that EnemeyDiversity is always the max. This results in very different enemy compositions. This variant can bring a little spice when Hazard 6x2 is feeling a little too same-y.
