@@ -1,0 +1,11 @@
+{
+  "Name": "Hazard 5x2, 60 Nitra",
+  "Description": "Hazard 5, 2x enemies, 60 nitra resup cost",
+  "ResupplyCost": 60,
+  "EnemyCountModifier": [
+    1.7,
+    1.7,
+    2.5,
+    3
+  ]
+}
