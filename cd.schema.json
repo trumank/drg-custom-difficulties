@@ -416,12 +416,12 @@
         },
         "MinPoolSize": {
             "type": "integer",
-            "description": "The maximum number of elite enemies allowed to exist at once.",
+            "description": "The size of the enemy pool. Enemies will be selected and added to the enemy pool until it is full in the following order: common enemies, disruptive enemies, then special enemies.",
             "min": 0
         },
         "MaxActiveElites": {
             "type": "integer",
-            "description": "The size of the enemy pool. Enemies will be selected and added to the enemy pool until it is full in the following order: common enemies, disruptive enemies, then special enemies.",
+            "description": "The maximum number of elite enemies allowed to exist at once.",
             "min": 0
         },
         "EnvironmentalDamageModifier": {
