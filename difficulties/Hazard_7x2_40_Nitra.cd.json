@@ -2,8 +2,18 @@
   "Name": "Hazard 7x2, 40 Nitra",
   "Description": "Hazard 7, 2x enemies, 40 nitra resupplies",
   "MaxActiveCritters": 180,
-  "MaxActiveSwarmers": 180,
-  "MaxActiveEnemies": 180,
+  "MaxActiveSwarmers": [
+    90,
+    150,
+    180,
+    180
+  ],
+  "MaxActiveEnemies": [
+    90,
+    150,
+    180,
+    180
+  ],
   "ResupplyCost": 40,
   "ExtraLargeEnemyDamageResistance": [
     1.4,
@@ -223,7 +233,6 @@
   "SpeedModifier": 1.35,
   "AttackCooldownModifier": 2,
   "ProjectileSpeedModifier": 1.9,
-  "SeasonalEvents": [],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,
     "BigHitDamageModifier": 0.75,

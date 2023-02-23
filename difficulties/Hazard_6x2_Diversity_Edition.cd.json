@@ -222,7 +222,6 @@
   "SpeedModifier": 1.25,
   "AttackCooldownModifier": 1.75,
   "ProjectileSpeedModifier": 1.9,
-  "SeasonalEvents": [],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,
     "BigHitDamageModifier": 0.75,

@@ -1,8 +1,18 @@
 {
   "Name": "Hazard 6",
   "Description": "Imported from Ike's [Hazard 6 on Mod.io](https://drg.mod.io/ike)",
-  "MaxActiveSwarmers": 180,
-  "MaxActiveEnemies": 180,
+  "MaxActiveSwarmers": [
+    90,
+    150,
+    180,
+    180
+  ],
+  "MaxActiveEnemies": [
+    90,
+    150,
+    180,
+    180
+  ],
   "ResupplyCost": 60,
   "ExtraLargeEnemyDamageResistance": [
     1,
