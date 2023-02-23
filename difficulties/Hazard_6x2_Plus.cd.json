@@ -1,8 +1,18 @@
 {
   "Name": "Hazard 6x2 Plus",
   "Description": "Experimenting with adding some more enemy variants to otherwise normal hazard6x2. Currently only adds sentinels (for their aggressive digging which can disrupt otherwise comfortable positioning) and a fast but weak slasher. Subject to change.",
-  "MaxActiveSwarmers": 180,
-  "MaxActiveEnemies": 180,
+  "MaxActiveSwarmers": [
+    90,
+    150,
+    180,
+    180
+  ],
+  "MaxActiveEnemies": [
+    90,
+    150,
+    180,
+    180
+  ],
   "ResupplyCost": 40,
   "ExtraLargeEnemyDamageResistance": [
     1,
@@ -256,7 +266,6 @@
     ],
     "remove": []
   },
-  "SeasonalEvents": [],
   "EscortMule": {
     "FriendlyFireModifier": 0.1,
     "BigHitDamageModifier": 0.75,

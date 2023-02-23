@@ -1,8 +1,18 @@
 {
   "Name": "Hazard 7x1.5, 50 Nitra",
   "Description": "Hazard 7, 1.5x enemies, 50 nitra resupplies",
-  "MaxActiveSwarmers": 180,
-  "MaxActiveEnemies": 180,
+  "MaxActiveSwarmers": [
+    90,
+    150,
+    180,
+    180
+  ],
+  "MaxActiveEnemies": [
+    90,
+    150,
+    180,
+    180
+  ],
   "ResupplyCost": 50,
   "ExtraLargeEnemyDamageResistance": [
     1.4,
