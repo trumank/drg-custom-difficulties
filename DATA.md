@@ -55,6 +55,7 @@ I haven't fully tested the list so some descriptions are missing. Feedback welco
 | ED_Spider_Grunt_Rock             | Ebonite Glyphid Grunt                                                 |
 | ED_Spider_GruntTutorial          | Tutorial Difficulty Grunt                                             |
 | ED_Spider_Hoarder                | Huuli Hoarder                                                         |
+| ED_Spider_Lobber                 | Glyphid Septic Spreader                                               |
 | ED_Spider_RapidShooter           | Menace                                                                |
 | ED_Spider_ShieldTank             | Oppressor                                                             |
 | ED_Spider_Shooter                | Acid Spitter                                                          |
