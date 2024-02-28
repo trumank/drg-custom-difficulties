@@ -1,8 +1,18 @@
 {
   "Name": "Hazard 5.5x2 60 Nitra",
   "Description": "Vanilla Hazard 5.5, 2x enemies, 60 nitra resupplies",
-  "MaxActiveSwarmers": 180,
-  "MaxActiveEnemies": 180,
+  "MaxActiveSwarmers": [
+    120,
+    180,
+    180,
+    180
+  ],
+  "MaxActiveEnemies": [
+    120,
+    180,
+    180,
+    180
+  ],
   "ResupplyCost": 60,
   "EnemyDamageResistance": [
     1.3,
