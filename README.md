@@ -48,7 +48,7 @@ Hazard 5, 2x enemies, 60 nitra resup cost
 Imported from Ike's [Hazard 6 on Mod.io](https://drg.mod.io/ike)
 
 ## [Hazard 6x2 40 Nitra](difficulties/Hazard_6x2_40_Nitra.cd.json)
-Hazard 6 with 2x enemy count, 40 nitra resupplies, and 180/180 spawn caps. Prospector and Data Vault disabled.
+Hazard 6 with 2x enemy count, 40 nitra resupplies, and 180/180 spawn caps.
 
 ## [Hazard 6x2 60 Nitra](difficulties/Hazard_6x2_60_Nitra.cd.json)
 Hazard 6x2, 60 nitra per resupply, typically used for EDDs.
@@ -60,7 +60,7 @@ This plays very similarly to normal Hazard 6x2. It's identical except that Eneme
 Experimenting with adding some more enemy variants to otherwise normal hazard6x2. Currently only adds sentinels (for their aggressive digging which can disrupt otherwise comfortable positioning) and a fast but weak slasher. Subject to change.
 
 ## [Hazard 6x3 40 Nitra](difficulties/Hazard_6x3_40_Nitra.cd.json)
-Hazard 6 with 3x enemy count, 40 nitra resupplies, and 180/180 spawn caps. Prospector and Data Vault disabled.
+Hazard 6 with 3x enemy count, 40 nitra resupplies, and 180/180 spawn caps.
 
 ## [Hazard 7](difficulties/Hazard_7.cd.json)
 Imported from Ike's [Hazard 7 on Mod.io](https://drg.mod.io/hazard-7)
